@@ -1,0 +1,10 @@
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+table{
+    border: 2px solid rgb(234, 29, 193);
+}
+tr, td, th{
+    border: 2px solid rgb(142, 121, 132);
+}
