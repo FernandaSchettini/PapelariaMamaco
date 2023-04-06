@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background-image: url(https://img.freepik.com/vetores-gratis/vetor-de-fundo-gradiente-em-rosa-claro-e-verde-primavera_53876-105762.jpg);
+            color: rgb(5, 5, 5);
+            text-align: center;
+
+        }
+        input, select {
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+<form width="100%">
+
+    
+        <h1>Cadastro</h1>
+        <label for="nome">Nome:</label>
+        <input type="test" name="nome" id="nome" placeholder="Preencha aqui seu nome"><br><br />
+
+
+
+        <label for="nasc">Data de Nascimento:</label>
+        <input type="date" name="nasc" id="nasc" placeholder="Sua data de nascimento"><br><br />
+
+
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" placeholder="Seu melhor email"><br><br />
+
+
+        <label for="endereço">Endereço:</label>
+        <input type="text" name="endereço" id="endereço" placeholder="Seu endereço"><br><br />
+
+        <label for="estado">Qual seu estado?</label>
+        <select name="estado" id="estado">
+            <option value="Estado">SP</option>
+            <option value="Estado">RJ</option>
+            <option value="Estado">AM</option>
+            <option value="Estado">MG</option>
+            <option value="Estado">TO</option>
+            <option value="Estado">SE</option>
+            <option value="Estado">ES</option>
+            <option value="Estado">MT</option>
+            <option value="Estado">MS</option>
+            <option value="Estado">GO</option>
+            <option value="Estado">PE</option>
+            <option value="Estado">RS</option>
+            <option value="Estado">SC</option>
+        </select><br /><br />
+
+
+        <label for="cpf">CPF:</label>
+        <input type="number" name="cpf" id="cpf" placeholder="Seu CPF"><br /><br />
+
+
+        <label for="senha">Senha:</label>
+        <input type="password" placeholder="Crie uma senha"><br><br />
+
+        <input type="button" value="Enviar">
+
+</form>
+<p> <a href="../VSCode Aula2/Papelaria.html" target="_blank" rel="prev">Volte a pagina inicial</a></p>
+</body>
+</html>
